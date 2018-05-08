@@ -5,3 +5,22 @@ h4{
 h1{
 	font-family: 'Berkshire Swash', cursive !important;
 }
+.navbar {
+  background-color: #B9929F !important; /*background color for nav*/
+  border-color: #9C528B !important; /*border or nav*/
+  background-repeat: no-repeat;
+}
+
+.nav.navbar-nav a {
+  color: #000000 !important;
+  font-size: 110%;
+}
+
+nav a:hover {
+  font-size: 115%  !important;
+  font-weight: bold !important;
+}
+
+li.current_nav {
+ font-weight: bold !important
+}
