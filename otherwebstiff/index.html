@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+	 </head>
+	 <body>
+
+
+<div class="m-p-g">
+		<img src="img/dug.jpg"/>
+		<img src="img/dug2.jpg" data-full="http://unsplash.it/1280/900?image=906" class="m-p-g__thumbs-img" />
+		<img src="img/dug3.jpg" data-full="http://unsplash.it/1100/840?image=885" class="m-p-g__thumbs-img" />
+		<img src="img/dug4.jpg" data-full="http://unsplash.it/1300/900?image=823" class="m-p-g__thumbs-img" />
+	</div>
+
+
+<script>
+	var elem = document.querySelector('.m-p-g');
+
+	document.addEventListener('DOMContentLoaded', function() {
+		var gallery = new MaterialPhotoGallery(elem);
+	});
+</script>
+
+
+
+</body>
+</html>

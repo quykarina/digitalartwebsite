@@ -1,0 +1,89 @@
+#jumbotronwinter {
+     background: url('images/wints.jpg');
+     background-size: cover;
+     color: #FFFFFF;
+}
+ #jumbotronme {
+     background: url('images/kst.jpg');
+     background-size: cover;
+     color: #FFFFFF;
+}
+ #jumbotronfood {
+     background: url('images/food1.jpg');
+     background-size: cover;
+     color: #FFF;
+}
+ #jumbotronmusic {
+     background: url('images/juke.jpg');
+     background-size: cover;
+     color: #FFF;
+}
+ #jumbotronsummer {
+     background: url('images/sums.jpg');
+     background-size: cover;
+     color: #FFFFFF;
+}
+ #jumbotronindex {
+     background: url('images/4s.jpg');
+     background-size: cover;
+     color: #FFFFFF;
+}
+ #jumbotronspring {
+     background: url('images/spring2.jpg');
+     background-size: cover;
+     color: #FFFFFF;
+}
+ #jumbotronfall {
+     background: url('images/autf.jpg');
+     background-size: cover;
+     color: #FFFFFF;
+}
+ #jumbotronclass {
+     background: url('images/eng.jpg');
+     background-size: cover;
+     color: #FFFFFF;
+}
+ .navbar {
+     background-color: #63474D ;
+     border-color: #63474D ;
+     background-repeat: no-repeat;
+}
+ .nav.navbar-nav a {
+     color: #E5FCFF !important;
+     font-size: 110%;
+}
+ nav a:hover {
+     font-family: monospace;
+     font-size: 115% !important;
+     font-weight: bold !important;
+}
+ li.current_nav {
+     text-decoration: underline;
+}
+ a, a:hover, a:visited, h3 {
+     font-weight: bold;
+}
+ p.my_padding {
+     padding: 0 40px 0 30px;
+     text-align: justify;
+}
+ h4{
+     font-family: 'Cormorant Garamond', serif;
+     font-size: 32px;
+}
+ h6{
+     font-size: 26px;
+     text-shadow: 2px 2px #000000;
+}
+ h2 {
+     font-family: 'Monoton', cursive;
+}
+ h3{
+     font-family: 'Ovo', serif;
+     font-size: 18px;
+}
+ h5{
+     font-family: 'Fredericka the Great', cursive;
+     font-size: 24px;
+}
+ 

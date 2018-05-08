@@ -1,0 +1,44 @@
+<!-- Karina Quy
+Period 2 -->
+<!DOCTYPE html>
+<html>
+<body>
+	<p>
+		Are you on the phone too much?
+			<br>
+			<br>
+				How many of hours do you spend on the phone?
+				<input id= "hrs">
+			<br>
+			<br>
+				<input type="button" onclick="enter()" value="Enter"/>
+	</p>
+				<p id="output"> </p>
+	<script>
+				function enter(){
+					var numOfHours = Number(document.getElementById("hrs").value);
+
+					if(numOfHours < 1){
+						document.getElementById("output").innerHTML
+						="Are you telling the truth. <br> <br>";
+					}
+					else if(numOfHours < 3){
+					document.getElementById("output").innerHTML
+					="It seems that you are living a balanced life <br> <br>";
+					}
+					else if(numOfHours < 4){
+					document.getElementById("output").innerHTML
+					="You are spending too much time on the phone <br> <br>";
+					}
+					else if(numOfHours < 8){
+					document.getElementById("output").innerHTML
+					="Congrats. You are a phone addict <br> <br>";
+					}
+					else{
+					document.getElementById("output").innerHTML
+					="Put your phone down <br> <br>";
+					}
+				}
+	</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!-- Karina Quy
+Period 2 -->
+<!DOCTYPE html>
+<html>
+<body>
+
+					<p> What high school are you going to? </p>
+
+	<form>
+		<input type="radio" id="Frhs" name="HS" onclick="high_school()">
+			Franklin High School; <br>
+		<input type="radio" id="CO" name="HS" onclick="high_school()">
+				Consumnes High School; <br>
+		<input type="radio" id="EGHS" name="HS" onclick="high_school()">
+				Elk Grove High School; <br>
+		<input type="radio" id="chs" name="HS" onclick="high_school()">
+				Cloverdale High School; <br>
+	</form>
+		<p id="output"> </p>
+	<script>
+				function high_school(){
+				if(document.getElementById("Frhs").checked){
+					document.getElementById("output").innerHTML
+					="You are the best high school <br> <br>";
+				}
+				else if(document.getElementById("CO").checked){
+					document.getElementById("output").innerHTML
+					="You are next to the best high school <br> <br>";
+				}
+				else if(document.getElementById("EGHS").checked){
+					document.getElementById("output").innerHTML
+					="Your high school is old <br> <br>";
+				}
+				else{
+				document.getElementById("output").innerHTML
+				="Where is that? <br> <br>";
+				}
+				}
+	</script>
+</body>
+</html>

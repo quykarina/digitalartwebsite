@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Car Loan Rate Info</h1>
+
+<div>
+  Here you can find what interest rate you will be getting on your next car.
+  Please enter the following information:  <br />
+  <ul>
+    <li>Your first name: &nbsp;&nbsp;<input id="first_name"></li>
+    <li>Your last name:  &nbsp;&nbsp;&nbsp;<input id="last_name"></li>
+    <li>Your credit score: <input id="credit_score"></li>
+  </ul>
+</div>
+
+<input type="button" onclick="printRate()" value="Get Interest Rate">
+
+<br /><br />
+
+<div id="output"></div>
+
+<script>
+function printRate() {
+  let firstName = document.getElementById("first_name").value;
+  let lastName = document.getElementById("last_name").value;
+  let creditScore = parseInt(document.getElementById("credit_score").value);
+
+  if(creditScore >= 781) {
+    document.getElementById("output").innerHTML
+    = "Great News " + firstName + " " + lastName + ", <br /><br />"
+    + "You have a Super Prime credit score so your interest rate for a new car "
+    + "is 2.6\% and 3.4\% for a used car."
+  }
+  else if(creditScore >= 661) {
+    document.getElementById("output").innerHTML
+    = "Good News " + firstName + " " + lastName + ", <br /><br />"
+    + "You have a Prime credit score so your interest rate for a new car "
+    + "is 3.59\% and 5.12\% for a used car."
+  }
+  else if(creditScore >= 601) {
+    document.getElementById("output").innerHTML
+    = firstName + " " + lastName + ", <br /><br />"
+    + "You have a Non Prime credit score so your interest rate for a new car "
+    + "is 6.39\% and 9.47\% for a used car."
+  }
+  else if(creditScore >= 501) {
+    document.getElementById("output").innerHTML
+    = "Bad News " + firstName + " " + lastName + ", <br /><br />"
+    + "You have a Sub Prime credit score so your interest rate for a new car "
+    + "is 10.65\% and 15.72\% for a used car."
+  }
+  else {
+    document.getElementById("output").innerHTML
+    = "Dang " + firstName + " " + lastName + ", <br /><br />"
+    + "Your credit score is so bad that you do not qualify for a car loan. "
+    + "Download the UBER app."
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!-- Karina Quy
+Period 2 -->
+<!DOCTYPE html>
+<html>
+<body>
+		<center>
+					<p> Hi, my name is Mr. Dagler </p>
+					What is your name <input id="username"> </input> <br>
+				 	 <input type= "checkbox" id="mean">  Be Mean &nbsp; &nbsp; &nbsp; <br>
+					 <input type= "checkbox" id="lou"> Be Loud &nbsp; &nbsp; &nbsp; <br>
+
+							&nbsp; &nbsp; &nbsp; <input type="button" onclick="speak()" value="enter"> <br> <br>
+		</center>					
+		<p id="output"> </p>
+	<script>
+				function speak(){
+
+				var username = document.getElementById("username").value;
+				var mean1 = document.getElementById("mean").checked;
+				var loud = document.getElementById("lou").checked;
+
+				var outString
+
+				if(mean1 == true){
+					outString = username + ", I do not like you one bit";
+					}
+				else {
+					outString = "It is so nice to meet you " + username;
+				}
+
+
+				if(loud == true){
+					outString += "!!!!!"
+				}
+				else {
+				outString += ".";
+				}
+
+				document.getElementById("output").innerHTML
+				="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" + outString;
+
+				}
+	</script>
+</body>
+</html>

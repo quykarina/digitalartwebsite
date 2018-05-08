@@ -1,0 +1,40 @@
+.jumbotron {
+  background: url('626.jpg');
+  background-size: cover;
+  color: #FFFFFF;
+
+}
+
+.navbar {
+  background-color: #8DAB86 ;
+  border-color: #006400 ;
+  background-repeat: no-repeat;
+}
+
+.nav.navbar-nav a {
+  color: #00FFFF !important;
+  font-size: 110%;
+}
+
+nav a:hover {
+  font-size: 115%  !important;
+  font-weight: bold !important;
+}
+
+li.current_nav {
+  text-decoration: underline;
+}
+
+a, a:hover, a:visited, h3 {
+  color: #006400;
+  font-weight: bold;
+}
+
+p {
+  font-size: 120%;
+}
+
+p.my_padding {
+  padding: 0 40px 0 30px;
+  text-align: justify;
+}

@@ -1,0 +1,47 @@
+<!-- Karina Quy
+Period 2 -->
+<!DOCTYPE html>
+<html>
+<body>
+
+					<p> What is your favorite shoe? </p>
+
+	<form>
+		<input type= "radio" id = "nike" name= "shoe" onclick= "shoe_type()">
+			Nike; <br>
+		<input type= "radio" id = "conv" name= "shoe" onclick= "shoe_type()">
+			Converse; <br>
+		<input type= "radio" id = "addias" name= "shoe" onclick= "shoe_type()">
+			Addias; <br>
+		<input type= "radio" id = "van" name= "shoe" onclick= "shoe_type()">
+			Vans; <br>
+		<input type= "radio" id = "flipf" name= "shoe" onclick= "shoe_type()">
+			Flip FLops; <br>
+	</form>
+		<p id="output"> </p>
+	<script>
+				function shoe_type(){
+				if(document.getElementById("nike").checked){
+					document.getElementById("output").innerHTML
+					="Stand for VIctory <br> <br>";
+					}
+				else if(document.getElementById("conv").checked){
+					document.getElementById("output").innerHTML
+					="Too cool for old people <br> <br>";
+				}
+				else if(document.getElementById("addias").checked){
+					document.getElementById("output").innerHTML
+					="Big in Europe <br> <br>";
+				}
+				else if(document.getElementById("van").checked){
+					document.getElementById("output").innerHTML
+					="Also too cool for old people <br> <br>";
+				}
+				else{
+				document.getElementById("output").innerHTML
+				="Summertime <br> <br>";
+				}
+				}
+	</script>
+</body>
+</html>

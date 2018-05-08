@@ -1,0 +1,40 @@
+<!-- Karina Quy
+Period 2 -->
+<!DOCTYPE html>
+<html>
+<body>
+	<p>
+		Are you doing enough?
+			<br>
+			<br>
+				How many of hours do you spend doing homework each night?
+				<input id= "hrs">
+			<br>
+			<br>
+				<input type="button" onclick="enter()" value="Enter"/>
+	</p>
+				<p id="output"> </p>
+	<script>
+				function enter(){
+					var numOfHours = Number(document.getElementById("hrs").value);
+
+					if(numOfHours < 2){
+						document.getElementById("output").innerHTML
+						="You need to spend more time on your work. <br> <br>";
+					}
+					else if(numOfHours < 4){
+					document.getElementById("output").innerHTML
+					="It seems that you are doing a good job <br> <br>";
+					}
+					else if(numOfHours < 6){
+					document.getElementById("output").innerHTML
+					="You are working too hard <br> <br>";
+					}
+					else{
+					document.getElementById("output").innerHTML
+					="You need to take a break <br> <br>";
+					}
+				}
+	</script>
+</body>
+</html>

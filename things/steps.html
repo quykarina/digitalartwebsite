@@ -1,0 +1,32 @@
+<!-- Karina Quy
+Period 2 -->
+<!DOCTYPE html>
+<html>
+<body>
+	<p>
+		How many steps have you taken?
+			<br>
+			<br>
+				Please input the amount of steps taken:
+				<input id= "step">
+			<br>
+			<br>
+				<input type="button" onclick="enter()" value="Enter"/>
+	</p>
+				<p id="output"> </p>
+	<script>
+				function enter(){
+					var age = Number(document.getElementById("step").value);
+
+					if(age < 10000){
+						document.getElementById("output").innerHTML
+						="I am sorry to say that you did not complete 10000 steps. <br> <br>";
+					}
+					else{
+					document.getElementById("output").innerHTML
+					="Congrats, you have completed  over 10000 steps <br> <br>";
+					}
+				}
+	</script>
+</body>
+</html>

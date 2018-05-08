@@ -1,0 +1,303 @@
+/*Karina Quy
+Period 2 */
+
+@import url("https://fonts.googleapis.com/css?family=Cinzel");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
+html {
+	overflow-x: hidden;
+	margin: -1px;
+}
+
+body {
+	background-position: center;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Fascinate Inline', cursive;
+	color: #000000;
+	text-shadow: 1px 1px 3px #FFBC42, 0 0 25px #FFFFFF, 0 0 5px #FFBC42;
+	padding-top: 30px;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	padding-left: 50px;
+	padding-right: 50px;
+	height: 50px;
+}
+
+h2 {
+	font-size: 24px;
+	font-family: 'Cinzel', serif;
+	color: white;
+	text-shadow: 3px 2px black, 2px 2px black, 2px 2px black, 3px 2px black;
+	margin: 0px;
+	text-align: center;
+}
+
+div.polaroid {
+	width: 350px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.container {
+	text-align: center;
+	padding: 10px 20px;
+}
+
+img {
+	padding: 5px;
+	width: 150px;
+}
+
+.slideshow-container {
+	z-index: 0;
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	border: 0px;
+}
+
+.mySlides {
+	display: none;
+	border: 0px;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Caption text */
+
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 40%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+	background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+body,
+html {
+	height: 100%;
+	margin: auto;
+}
+
+.parallax {
+	/* The image used */
+	background-image: url("images/hphouse.jpg");
+	/* Set a specific height */
+	height: 100%;
+	text-align= center ;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.parallax1 {
+	/* Set a specific height */
+	height: 10%;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+nav {
+	z-index: 1;
+	position: fixed;
+	top: 0%;
+	text-align: center;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: arial;
+	text-align: center;
+}
+
+ul li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	opacity: 0.7;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-align:center;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-family: "Lobster", cursive;
+}
+
+li a:hover {
+	background-color: #0E103D;
+	font-family: "Lobster", cursive;
+	text-align:center;
+}
+
+.inactive {
+	background-color: #383B53;
+	font-family: "Lobster", cursive;
+	text-align:center;
+}
+
+li a .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: "Lobster", cursive;
+}
+
+li.dropdown {
+	display: inline-block;
+	font-family: "Lobster", cursive;
+	text-align:center;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #0E103D;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	font-family: "Lobster", cursive;
+	text-align:center;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-family: "Lobster", cursive;
+	text-align:center;
+}
+
+.dropdown-content a:hover {
+	background-color: #8D99AE
+	text-align:center;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	font-family: "Lobster", cursive;
+	text-align:center;
+}
+
+.nav1 {
+	text-align: center;
+	padding-left: 450px;
+}

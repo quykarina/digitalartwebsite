@@ -1,0 +1,82 @@
+<!-- Karina Quy
+Period 2 -->
+<!DOCTYPE html>
+<html>
+<body>
+		<center>
+				<table>
+					<tr>
+						<th> </th>
+						<th> Enter Classes: </th>
+						<th> A? </th>
+					</tr>
+					<tr>
+						<td> Period 1 </td>
+						<td> <input id= "class"> </td>
+						<td>
+								<input type= "checkbox" id = "grade" name= "a" onclick= "grade1">
+						</td>
+					</tr>
+					<tr>
+						<td> Period 2 </td>
+						<td> <input id= "class1"> </td>
+						<td>
+							<input type= "checkbox" id = "grade" name= "a" onclick= "grade1">
+					 </td>
+					</tr>
+					<tr>
+						<td> Period 3/4 </td>
+						<td> <input id= "class2"> </td>
+						<td>
+							<input type= "checkbox" id = "grade" name= "a" onclick= "grade1">
+					 </td>
+					</tr>
+					<tr>
+						<td> Period 4/5 </td>
+						<td> <input id= "class3"> </td>
+						<td>
+							<input type= "checkbox" id = "grade" name= "a" onclick= "grade1">
+						 </td>
+					</tr>
+					<tr>
+						<td> Period 6 </td>
+						<td> <input id= "class4"> </td>
+						<td>
+							<input type= "checkbox" id = "grade" name= "a" onclick= "grade1">
+						 </td>
+					</tr>
+				</table>
+						<br> <br>
+						<input type="button" onclick="enter()" value="Enter"/>
+		</center>
+			</p>
+			<p id="output"> </p>
+<script>
+			function enter(){
+
+				var class = document.getElementById("class").value;
+				var class1 = document.getElementById("class").value;
+				var class2 = document.getElementById("class").value;
+				var class3 = document.getElementById("class").value;
+				var class4 = document.getElementById("class").value;
+				var class5 = document.getElementById("class").value;
+				var grade1 = document.getElementById("grade").checked;
+
+				var outString
+
+				if(document.getElementById("grade").checked){
+					document.getElementById("output").innerHTML
+					outString = "<b>" + class + "<b>";
+					}
+				else {
+					outString = "It is so nice to meet you ";
+				}
+
+
+				document.getElementById("output").innerHTML
+				="&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;" + outString;
+
+				}
+	</script>
+</body>
+</html>

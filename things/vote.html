@@ -1,0 +1,32 @@
+<!-- Karina Quy
+Period 2 -->
+<!DOCTYPE html>
+<html>
+<body>
+	<p>
+		Can you vote?
+			<br>
+			<br>
+				Please input your age:
+				<input id= "age">
+			<br>
+			<br>
+				<input type="button" onclick="enter()" value="Enter"/>
+	</p>
+				<p id="output"> </p>
+	<script>
+				function enter(){
+					var age = Number(document.getElementById("age").value);
+
+					if(age < 18){
+						document.getElementById("output").innerHTML
+						="I am sorry to say that you are too young to vote. <br> <br>";
+					}
+					else{
+					docutment.getElementById("output").innerHTML
+					="You are old enough to vote, go and fix the world <br> <br>";
+					}
+				}
+	</script>
+</body>
+</html>

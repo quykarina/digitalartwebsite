@@ -1,0 +1,45 @@
+<!-- Karina Quy
+Period 2 -->
+<!DOCTYPE html>
+<html>
+<body>
+		<center>
+					<p id= "hiWorldTxt"> Hi World </p>
+
+	<form>
+		<select id="sizeSelect" onclick="changeSize()">
+			<option> 8 px </option>
+			<option> 16 px </option>
+			<option> 24 px </option>
+			<option> 36 px </option>
+			<option> 48 px </option>
+			<option> 64 px </option>
+			<option> 128 px </option>
+		</select>
+	</form>
+		</center>
+	<script>
+				function changeSize(){
+					var n = document.getElementById("sizeSelect").selectedIndex;
+					var text = document.getElementById("hiWorldTxt");
+
+					switch(n){
+						case 0: text.style.fontSize = "8px";
+							break;
+						case 1: text.style.fontSize = "16px";
+							break;
+						case 2: text.style.fontSize = "24px";
+							break;
+						case 3: text.style.fontSize = "36px";
+							break;
+						case 4: text.style.fontSize = "48px";
+							break;
+						case 5: text.style.fontSize = "64px";
+							break;
+						case 6: text.style.fontSize = "128px";
+						
+					}
+				}
+	</script>
+</body>
+</html>

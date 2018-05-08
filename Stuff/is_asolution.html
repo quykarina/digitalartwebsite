@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Got a Problem?</h1>
+
+<div>
+  Well, I have a solution for you. <br />
+	| x + 3 | > 5
+  <br />
+  Please enter your answer: <input id="ans">   <br /><br />
+</div>
+
+<input type="button" onclick="printAnswer()" value="Enter">
+
+<br><br>
+
+<div id="printAnswer"></div>
+
+<script>
+function printAnswer() {
+  let userAge = parseInt(document.getElementById("ans").value);
+
+  if(ans > -9 || userAge < 3) {
+    document.getElementById("printAnswer").innerHTML
+    = "the answer is correct"
+  }
+  else {
+    document.getElementById("printAnswer").innerHTML
+    = "the answer is incorrect"
+  }
+}
+</script>
+
+</body>
+</html>
