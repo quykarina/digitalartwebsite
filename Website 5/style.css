@@ -1,7 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
 h1{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Josefin Sans', sans-serif !important;
 }
 h5{
-	font-family: 'Berkshire Swash', cursive;
+	font-family: 'Berkshire Swash', cursive !important;
 }
