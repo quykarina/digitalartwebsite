@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+@import url('https://fonts.googleapis.com/css?family=Arapey');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 h4{
 	font-family: 'Josefin Sans', sans-serif !important;
 }
 h1{
 	font-family: 'Berkshire Swash', cursive !important;
+}
+h6{
+	font-family: 'Arapey', serif !important;
+	font-size: 20px !important;
+	font-weight: bold !important;
 }
 .navbar {
   background-color: #B9929F !important; /*background color for nav*/
