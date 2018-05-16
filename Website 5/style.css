@@ -1,33 +1,181 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
 @import url('https://fonts.googleapis.com/css?family=Arapey');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-h4{
-	font-family: 'Josefin Sans', sans-serif !important;
+ h4{
+     font-family: 'Josefin Sans', sans-serif !important;
+     font-size: 15px !important;
 }
-h1{
-	font-family: 'Berkshire Swash', cursive !important;
+ h1{
+     font-family: 'Berkshire Swash', cursive !important;
 }
-h6{
-	font-family: 'Arapey', serif !important;
-	font-size: 20px !important;
-	font-weight: bold !important;
+ h6{
+     font-family: 'Arapey', serif !important;
+     font-size: 20px !important;
+     font-weight: bold !important;
 }
-.navbar {
-  background-color: #B9929F !important; /*background color for nav*/
-  border-color: #9C528B !important; /*border or nav*/
-  background-repeat: no-repeat;
+ .navbar {
+    /* background-color: #B9929F !important;
+    /*background color for nav*/
+    /*border-color: #9C528B !important;
+    /*border or nav*/
+    /* background-repeat: no-repeat;
+    */
 }
-
-.nav.navbar-nav a {
-  color: #000000 !important;
-  font-size: 110%;
+ .nav.navbar-nav a {
+     color: #FFF !important;
+     font-size: 110%;
 }
-
-nav a:hover {
-  font-size: 115%  !important;
-  font-weight: bold !important;
+ nav a:hover {
+     font-size: 115% !important;
+     font-weight: bold !important;
 }
-
-li.current_nav {
- font-weight: bold !important
+ li.current_nav {
+     font-weight: bold !important;
+}
+ .parallax {
+    /* The image used */
+     background-image: url("images/sample.jpg");
+    /* Set a specific height */
+     height: 950px;
+    /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ .sample2 {
+    /* The image used */
+     background-image: url("images/sample2.jpg");
+    /* Set a specific height */
+     height: 950px;
+    /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ #section1 {
+    padding-top:50px;
+    height:1000px;
+    color: #000;
+     background-color: #f9f9f9;
+}
+ #section2 {
+    padding-top:50px;
+    height:850px;
+    color: #000;
+     background-color: #fff;
+}
+ body {
+     font-family: Arial;
+     margin: 0;
+     position: relative;
+}
+ * {
+     box-sizing: border-box;
+}
+ img {
+     vertical-align: middle;
+}
+/* Position the image container (needed to position the left and right arrows) */
+ .container {
+     position: relative;
+}
+/* Hide the images by default */
+ .mySlides {
+     display: none;
+}
+/* Add a pointer when hovering over the thumbnail images */
+ .cursor {
+     cursor: pointer;
+}
+/* Next & previous buttons */
+ .prev, .next {
+     cursor: pointer;
+     position: absolute;
+     top: 40%;
+     width: auto;
+     padding: 16px;
+     margin-top: -50px;
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+     -webkit-user-select: none;
+}
+/* Position the "next button" to the right */
+ .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+ .prev:hover, .next:hover {
+     background-color: rgba(0, 0, 0, 0.8);
+}
+/* Number text (1/3 etc) */
+ .numbertext {
+     color: #f2f2f2;
+     font-size: 12px;
+     padding: 8px 12px;
+     position: absolute;
+     top: 0;
+}
+/* Container for image text */
+ .caption-container {
+     text-align: center;
+     background-color: #222;
+     padding: 2px 16px;
+     color: white;
+}
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+/* Six columns side by side */
+ .column {
+     float: left;
+     width: 16.66%;
+}
+/* Add a transparency effect for thumnbail images */
+ .demo {
+     opacity: 0.6;
+}
+ .active, .demo:hover {
+     opacity: 1;
+}
+ * {
+    box-sizing: border-box;
+}
+ .img-comp-container {
+     position: relative;
+     height: 200px;
+    /*should be the same height as the images*/
+}
+ .img-comp-img {
+     position: absolute;
+     width: auto;
+     height: auto;
+     overflow:hidden;
+}
+ .img-comp-img img {
+     display:block;
+     vertical-align:middle;
+}
+ .img-comp-slider {
+     position: absolute;
+     z-index:9;
+     cursor: ew-resize;
+    /*set the appearance of the slider:*/
+     width: 40px;
+     height: 40px;
+     background-color: #000;
+     opacity: 0.7;
+     border-radius: 50%;
+}
+ .section2info {
+     margin-top: auto;
+     padding-left: 1245px;
+     padding-right: 20 px;
 }

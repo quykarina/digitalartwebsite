@@ -1,88 +1,272 @@
 <!DOCTYPE html>
 <html>
-<head>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" href="images/fox.ico" />
+      <title>Lorem Ipsum </title>
+      <!-- h1 -->
+      <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+      <!-- h4 -->
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+      <!-- h6 -->
+      <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   </head>
+   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <a class="navbar-brand" href="index.html"> <img src="images/fox.ico" alt="icon" style="width:24px;height:24px;"> </a>
+            </div>
+            <ul class="nav navbar-nav">
+               <li><a href="#section3">Home</a></li>
+               <li><a href="#section1">Morbi</a></li>
+               <li><a href="#section2">Etiam</a></li>
+               <li><a href="#section4">End</a></li>
+            </ul>
+         </div>
+      </nav>
+      <div class="parallax"></div>
+      <div id="section3" class="container-fluid">
+         <div style="background-color:white">
+            <div class="container" style="margin-top:50px">
+               <div class="container" style="margin-bottom:50px">
+                  <div class="col-xs-10 col-sm-8 col-md-7 col-lg-5">
+                     <h1> The Rabbit </h1>
+                     <h6>
+                        Vestibulum semper molestie convallis. Nam sed leo quis orci condimentum semper eu sed nisl. Nunc rutrum pellentesque quam, ac vulputate neque auctor sed. Nunc luctus arcu vitae posuere consectetur. Quisque consectetur ipsum eu aliquet tempus. Vestibulum molestie nibh vitae felis fermentum lacinia. Sed elementum ipsum eros, nec fringilla nibh consectetur a. Vivamus interdum pulvinar sem. Mauris vel sapien blandit, convallis lectus eu, efficitur odio. Aliquam in sagittis eros. Nulla id laoreet nunc. Duis sed fermentum eros, id malesuada risus. Duis quis magna diam.
+                     </h6>
+                  </div>
+                  <div class="col-xs-10 col-sm-8 col-md-7 col-lg-5">
+                     <h1> The Dog </h1>
+                     <h6>
+                        Mauris vitae arcu vitae diam venenatis aliquet. Nullam a egestas lectus, in consequat sapien. Curabitur iaculis accumsan tortor a dapibus. Ut est metus, pharetra eget cursus nec, dictum vel lectus. In quis volutpat purus, vel laoreet ligula. Sed vel augue sed nulla ornare scelerisque. Praesent id elit nibh. Mauris consectetur blandit arcu hendrerit condimentum. Maecenas ac laoreet lorem.
+                     </h6>
+                  </div>
+                  <div class="col-xs-10 col-sm-8 col-md-7 col-lg-5">
+                     <h1> The Mouse </h1>
+                     <h6>
+                        Aenean tincidunt vitae tellus sit amet rhoncus. Mauris a lectus turpis. In molestie volutpat neque nec malesuada. Morbi pharetra dui sed nisi condimentum euismod. Fusce eget mattis eros. Phasellus laoreet odio nisl, non egestas arcu suscipit eget. Duis hendrerit, lacus et placerat bibendum, mauris velit semper massa, eu vulputate tortor velit vel quam. Duis mollis commodo nisl, at euismod diam.
+                     </h6>
+                  </div>
+                  <div class="col-xs-10 col-sm-8 col-md-7 col-lg-5">
+                     <h1> The Hedgehog </h1>
+                     <h6>
+                        Ut dapibus gravida eros vitae eleifend. Mauris pellentesque eros eros, eu molestie augue fermentum vel. Sed feugiat, orci non volutpat ultrices, sem metus consectetur nulla, sit amet elementum purus tellus sed nisi. Nulla malesuada sit amet felis lacinia commodo. Donec mattis odio nec sem dapibus dictum. Proin consequat a nulla vel aliquam. Aenean eget laoreet felis.
+                     </h6>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section1" class="container-fluid">
+         <h1 style="text-align:center"> Gallery </h1>
+         <br>
+         <div class="container">
+            <div class="mySlides">
+               <div class="numbertext"> <h6> 1 / 6 </h6> </div>
+               <img src="images/stuff1.jpg" style="width:100%" alt="batman">
+            </div>
+            <div class="mySlides">
+               <div class="numbertext"> <h6> 2 / 6 </h6> </div>
+               <img src="images/stuff2.jpg" style="width:100%" alt="pacman">
+            </div>
+            <div class="mySlides">
+               <div class="numbertext"> <h6> 3 / 6 </h6> </div>
+               <img src="images/stuff3.jpg" style="width:100%" alt="tetris">
+            </div>
+            <div class="mySlides">
+               <div class="numbertext"> <h6> 4 / 6  </h6> </div>
+               <img src="images/stuff4.jpg" style="width:100%" alt="riverdale">
+            </div>
+            <div class="mySlides">
+               <div class="numbertext"> <h6> 5 / 6 </h6> </div>
+               <img src="images/stuff5.jpg" style="width:100%" alt="onceuponatime">
+            </div>
+            <div class="mySlides">
+               <div class="numbertext"> <h6> 6 / 6 </h6> </div>
+               <img src="images/stuff6.jpg" style="width:100%" alt="city">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            <div class="caption-container">
+               <p id="caption"></p>
+            </div>
+            <div class="row">
+               <div class="column">
+                  <img class="demo cursor" src="images/stuff1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Batman">
+               </div>
+               <div class="column">
+                  <img class="demo cursor" src="images/stuff2.jpg" style="width:100%" onclick="currentSlide(2)" alt="PacMan">
+               </div>
+               <div class="column">
+                  <img class="demo cursor" src="images/stuff3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Tetris">
+               </div>
+               <div class="column">
+                  <img class="demo cursor" src="images/stuff4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Riverdale">
+               </div>
+               <div class="column">
+                  <img class="demo cursor" src="images/stuff5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Once Upon A Time">
+               </div>
+               <div class="column">
+                  <img class="demo cursor" src="images/stuff6.jpg" style="width:100%" onclick="currentSlide(5)" alt="City">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section2" class="container-fluid">
+         <h1 style="text-align:center"> Contrasting Images </h1>
+         <div class="img-comp-container">
+            <div class="img-comp-img">
+               <img src="images/profile1.jpg" width="1200" height="600" alt="otterday">
+            </div>
+            <div class="img-comp-img img-comp-overlay">
+               <img src="images/profile2.jpg" width="1200" height="600" alt="sceneic">
+            </div>
+         </div>
+         <div class="section2info">
+            <h1 style="text-align:center">Ocean</h1>
+            <h4> Maecenas eget nulla iaculis, euismod ligula eget, scelerisque sem. Fusce non enim sit amet justo faucibus gravida vel in sem. Sed congue, leo eu laoreet tristique, justo erat porttitor tellus, vulputate venenatis urna orci vel lacus. Sed tempus sem eget dignissim finibus. Phasellus elit lorem, placerat non dictum nec, consectetur ac lectus. Integer ullamcorper ex nec justo tempor, et facilisis leo sollicitudin
+               <br>
+               Curabitur iaculis, nibh nec bibendum gravida, elit est facilisis ex, vel egestas erat risus at odio. Nunc vitae scelerisque purus. Suspendisse vitae ante odio. In pretium scelerisque orci eget elementum. Sed ut blandit arcu. Duis eget leo purus. Etiam et ultricies velit. Vestibulum tristique urna eget lacus pretium semper. Mauris eleifend nulla at ipsum posuere, ut varius nulla porttitor. Vestibulum pellentesque, tellus id pulvinar venenatis, libero ipsum porttitor nisi, in auctor est ex a arcu.
+               <br>
+               Integer fringilla, urna in euismod ornare, orci ex consectetur sapien, feugiat convallis orci lacus ac tortor. Cras vehicula porttitor ultricies. Donec sit amet ipsum eu sem posuere convallis eget vitae mauris. Integer ut scelerisque magna. Morbi elementum dolor quis lacus finibus sollicitudin. Donec vel tortor sit amet lacus ultrices feugiat. Vestibulum orci urna, tempor in laoreet eget, tristique nec est. Nullam volutpat a dui vitae iaculis. Phasellus vulputate nisi dolor, sit amet dictum ipsum interdum vel. Morbi ac aliquam orci. Etiam malesuada nisl sit amet sagittis interdum. Vivamus eu congue dolor, et tincidunt elit. Etiam sagittis, felis vulputate condimentum porttitor, erat nunc imperdiet nibh, facilisis tempus elit mi nec tortor. Duis commodo massa in enim egestas imperdiet.
+            </h4>
+         </div>
+      </div>
+      <div id="section4">
+         <div class="sample2"></div>
+      </div>
+      <script>
+							$(document).ready(function() {
+							$('body').scrollspy({
+							target: ".navbar",
+							offset: 50
+							});
+							});
 
+							/*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
+							initComparisons();
+							var slideIndex = 1;
+							showSlides(slideIndex);
 
-	<link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="icon" href="images/fox.ico" />
+							function plusSlides(n) {
+							showSlides(slideIndex += n);
+							}
 
+							function currentSlide(n) {
+							showSlides(slideIndex = n);
+							}
 
+							function initComparisons() {
+							var x, i;
+							x = document.getElementsByClassName("img-comp-overlay");
+							for (i = 0; i < x.length; i++) {
+							/*once for each "overlay" element:
+							pass the "overlay" element as a parameter when executing the compareImages function:*/
+							compareImages(x[i]);
+							}
 
+							function compareImages(img) {
+							var slider, img, clicked = 0,
+							w, h;
+							/*get the width and height of the img element*/
+							w = img.offsetWidth;
+							h = img.offsetHeight;
+							/*set the width of the img element to 50%:*/
+							img.style.width = (w / 2) + "px";
+							/*create slider:*/
+							slider = document.createElement("DIV");
+							slider.setAttribute("class", "img-comp-slider");
+							/*insert slider*/
+							img.parentElement.insertBefore(slider, img);
+							/*position the slider in the middle:*/
+							slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
+							slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
+							/*execute a function when the mouse button is pressed:*/
+							slider.addEventListener("mousedown", slideReady);
+							/*and another function when the mouse button is released:*/
+							window.addEventListener("mouseup", slideFinish);
+							/*or touched (for touch screens:*/
+							slider.addEventListener("touchstart", slideReady);
+							/*and released (for touch screens:*/
+							window.addEventListener("touchstop", slideFinish);
 
-<title>Lorem Ipsum2 </title>
-<!-- h1 -->
-<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
-<!-- h4 -->
-	 <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-	 <!-- h6 -->
-	 <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
+							function slideReady(e) {
+							/*prevent any other actions that may occur when moving over the image:*/
+							e.preventDefault();
+							/*the slider is now clicked and ready to move:*/
+							clicked = 1;
+							/*execute a function when the slider is moved:*/
+							window.addEventListener("mousemove", slideMove);
+							window.addEventListener("touchmove", slideMove);
+							}
 
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
+							function slideFinish() {
+							/*the slider is no longer clicked:*/
+							clicked = 0;
+							}
 
-	<nav class="navbar navbar-default">
-	      <div class="container-fluid">
-	         <div class="navbar-header">
-	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-	               <span class="icon-bar"></span>
-	               <span class="icon-bar"></span>
-	               <span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-	            </button>
-	         </div>
-	         <div class="collapse navbar-collapse" id="myNavbar">
-	            <ul class="nav navbar-nav">
-	               <li class="current_nav"><a href="index.html"> <h4> Etiam </h4> </a></li>
-	               <li><a href="elephant.html"> <h4> Sed </h4> </a></li>
-	               <li><a href="elephant.html"> <h4> Nam </h4> </a></li>
-	               <li><a href="elephant.html"> <h4> Suspendisse </h4> </a></li>
-						<li><a href="elephant.html"> <h4> Curabitur </h4> </a></li>
-	           </ul>
-	         </div>
-	      </div>
-	   </nav>
+							function slideMove(e) {
+							var pos;
+							/*if the slider is no longer clicked, exit this function:*/
+							if (clicked == 0) return false;
+							/*get the cursor's x position:*/
+							pos = getCursorPos(e)
+							 /*prevent the slider from being positioned outside the image:*/
+							if (pos < 0) pos = 0;
+							if (pos > w) pos = w;
+							/*execute a function that will resize the overlay image according to the cursor:*/
+							slide(pos);
+							}
+							function getCursorPos(e) {
+							var a, x = 0;
+							e = e || window.event;
+							/*get the x positions of the image:*/
+							a = img.getBoundingClientRect();
+							/*calculate the cursor's x coordinate, relative to the image:*/
+							x = e.pageX - a.left;
+							/*consider any page scrolling:*/
+							x = x - window.pageXOffset;
+							return x;
+							}
 
-<div class="col-xs-10 col-sm-8 col-md-3 col-lg-2"><h1> The Rabbit </h1>
-	<h6>
-Vestibulum semper molestie convallis. Nam sed leo quis orci condimentum semper eu sed nisl. Nunc rutrum pellentesque quam, ac vulputate neque auctor sed. Nunc luctus arcu vitae posuere consectetur. Quisque consectetur ipsum eu aliquet tempus. Vestibulum molestie nibh vitae felis fermentum lacinia. Sed elementum ipsum eros, nec fringilla nibh consectetur a. Vivamus interdum pulvinar sem. Mauris vel sapien blandit, convallis lectus eu, efficitur odio. Aliquam in sagittis eros. Nulla id laoreet nunc. Duis sed fermentum eros, id malesuada risus. Duis quis magna diam. </h6>
-</div>
-<div class="col-xs-10 col-sm-8 col-md-3 col-lg-2"><h1> The Dog </h1>
-	<h6>
-Mauris vitae arcu vitae diam venenatis aliquet. Nullam a egestas lectus, in consequat sapien. Curabitur iaculis accumsan tortor a dapibus. Ut est metus, pharetra eget cursus nec, dictum vel lectus. In quis volutpat purus, vel laoreet ligula. Sed vel augue sed nulla ornare scelerisque. Praesent id elit nibh. Mauris consectetur blandit arcu hendrerit condimentum. Maecenas ac laoreet lorem.
-</h6>
-</div>
-<div class="col-xs-10 col-sm-8 col-md-3 col-lg-2"><h1> The Mouse </h1>
-	<h6>
-Aenean tincidunt vitae tellus sit amet rhoncus. Mauris a lectus turpis. In molestie volutpat neque nec malesuada. Morbi pharetra dui sed nisi condimentum euismod. Fusce eget mattis eros. Phasellus laoreet odio nisl, non egestas arcu suscipit eget. Duis hendrerit, lacus et placerat bibendum, mauris velit semper massa, eu vulputate tortor velit vel quam. Duis mollis commodo nisl, at euismod diam.
-</h6>
-</div>
-<div class="col-xs-10 col-sm-8 col-md-3 col-lg-2"><h1> The Hedgehog </h1>
-	<h6>
-Ut dapibus gravida eros vitae eleifend. Mauris pellentesque eros eros, eu molestie augue fermentum vel. Sed feugiat, orci non volutpat ultrices, sem metus consectetur nulla, sit amet elementum purus tellus sed nisi. Nulla malesuada sit amet felis lacinia commodo. Donec mattis odio nec sem dapibus dictum. Proin consequat a nulla vel aliquam. Aenean eget laoreet felis.
-</h6>
-</div>
-<div class="col-xs-10 col-sm-8 col-md-3 col-lg-2"><h1> The Fish </h1>
-	<h6>
-Fusce egestas porta leo. Maecenas justo est, suscipit vitae quam efficitur, facilisis maximus purus. Sed eu laoreet erat. Fusce sagittis enim justo, eget facilisis sem ultricies at. Praesent vitae semper mi, in accumsan purus. Maecenas sed purus nec felis tincidunt volutpat eu nec dolor. Morbi egestas lectus ac dolor posuere aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam pharetra scelerisque ullamcorper.
-</h6>
-</div>
-<div class="col-xs-10 col-sm-8 col-md-3 col-lg-2">
-<h1> The Turtle </h1>
-<h6>
-Ut bibendum placerat mi et consectetur. Ut sodales tincidunt ipsum. Aenean sit amet arcu sed erat ullamcorper ornare. Morbi ante sapien, mollis eget rhoncus eu, ultrices viverra massa. Nulla facilisi. Maecenas rutrum aliquam risus et tincidunt. Cras vitae enim orci. Donec in mattis elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies eros nec magna fringilla auctor.
-</h6> </div>
-<div class="col-xs-10 col-sm-8 col-md-3 col-lg-2">
-<h1> The Otter </h1>
-<h6>
-Ut bibendum placerat mi et consectetur. Ut sodales tincidunt ipsum. Aenean sit amet arcu sed erat ullamcorper ornare. Morbi ante sapien, mollis eget rhoncus eu, ultrices viverra massa. Nulla facilisi. Maecenas rutrum aliquam risus et tincidunt. Cras vitae enim orci. Donec in mattis elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies eros nec magna fringilla auctor.
-</h6> </div>
+							function slide(x) {
+							/*resize the image:*/
+							img.style.width = x + "px";
+							/*position the slider:*/
+							slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
+							}
+							}
+							}
+							function showSlides(n) {
+							var i;
+							var slides = document.getElementsByClassName("mySlides");
+							var dots = document.getElementsByClassName("demo");
+							var captionText = document.getElementById("caption");
+							if (n > slides.length) {
+							slideIndex = 1
+							}
+							if (n < 1) {
+							slideIndex = slides.length
+							}
+							for (i = 0; i < slides.length; i++) {
+							slides[i].style.display = "none";
+							}
+							for (i = 0; i < dots.length; i++) {
+							dots[i].className = dots[i].className.replace(" active", "");
+							}
+							slides[slideIndex - 1].style.display = "block";
+							dots[slideIndex - 1].className += " active";
+							captionText.innerHTML = dots[slideIndex - 1].alt;
+							}
 
-</body>
+      </script>
+   </body>
 </html>
